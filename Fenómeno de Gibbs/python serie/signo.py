@@ -11,6 +11,7 @@ def serie(x, n):
         k1 = 2*k+1
         res += np.sin(k1*x)/k1
     res = (4/math.pi)*res
+    
     return res
 
 if __name__ == "__main__":
